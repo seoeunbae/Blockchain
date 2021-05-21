@@ -1,0 +1,11 @@
+{
+    "compilerOptions":{
+        "module": "commonjs",
+        "target": "ES2015", //컴파일되고 싶은 자바스크립트 버전
+        "sourceMap": true,
+        "outDir": "dist",//컴파일한 결과파일(즉, javascript소스)가 생기는 곳
+        "rootDir": "src"//typescript소스 생기는곳
+    },
+    "include": ["src/index.ts"],//어떤 파일들이 컴파일과정에 포함되는지알리기
+    "exclude": ["node_modules"]
+}
